@@ -1,8 +1,11 @@
 <template>
-  <nav class="w-full bg-white/95 backdrop-blur-md shadow-md fixed top-0 left-0 z-50">
+  <nav
+    class="w-full bg-white/95 backdrop-blur-md shadow-md 
+           md:fixed md:top-0 md:left-0 z-50"
+  >
     <div class="max-w-7xl container mx-auto px-6 py-4 flex justify-between items-center">
 
-      <!-- LOGO - Centered & Classy -->
+      <!-- LOGO -->
       <NuxtLink to="/" class="flex items-center space-x-2">
         <img
           src="/assest/GfudB.jpg"
@@ -14,11 +17,9 @@
       <!-- Desktop Navigation -->
       <div class="hidden md:flex items-center space-x-10 font-semibold text-gray-700">
         <NuxtLink to="/" class="hover:text-red-500 transition">Home</NuxtLink>
-
         <NuxtLink to="/about" class="hover:text-red-500 transition">About</NuxtLink>
         <NuxtLink to="/contact" class="hover:text-red-500 transition">Contact</NuxtLink>
 
-     
         <NuxtLink
           to="/menu"
           class="bg-red-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-red-600 transition"
@@ -27,7 +28,7 @@
         </NuxtLink>
       </div>
 
-   
+      <!-- Mobile Hamburger -->
       <button
         @click="isOpen = !isOpen"
         class="md:hidden text-3xl text-gray-800 focus:outline-none"
@@ -39,7 +40,10 @@
 
     <!-- Mobile Menu -->
     <transition name="slide">
-      <div v-if="isOpen" class="md:hidden bg-white shadow-lg border-t py-6">
+      <div
+        v-if="isOpen"
+        class="md:hidden bg-white shadow-lg border-t py-6"
+      >
         <div class="flex flex-col items-center space-y-6 font-semibold text-gray-700">
 
           <NuxtLink to="/" class="hover:text-red-500" @click="isOpen = false">Home</NuxtLink>
@@ -58,7 +62,7 @@
           <!-- Hotline -->
           <div class="pt-2 text-center">
             <p class="text-gray-700 font-bold text-sm">For Enquiries, Call</p>
-            <a href="tel:08023190606" class="text-red-600 font-semibold">070 4027 1579</a>
+            <a href="tel:07040271579" class="text-red-600 font-semibold">070 4027 1579</a>
           </div>
         </div>
       </div>
@@ -67,8 +71,8 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const isOpen = ref(false)
+import { ref } from "vue";
+const isOpen = ref(false);
 </script>
 
 <style>
