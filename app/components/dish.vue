@@ -53,7 +53,7 @@
 
                 <!-- RESERVE MEAL BUTTON -->
                 <NuxtLink
-                  :to="`/jollof rice`"
+                  :to="`/menu`"
                   class="px-3 py-1 bg-red-600 text-white text-sm rounded-lg font-semibold shadow hover:bg-red-700 transition"
                 >
                   Reserve Meal
