@@ -261,7 +261,7 @@ const displayFoods = reactive([
 },
 {
   id: 102,
-  name: "Efo Riro",
+  name: "Gbegiri & Ewedu with Assorted",
   desc: "Rich, vibrant spinach stew cooked with assorted proteins.",
   image: "/assest/gber.png",
   selectedLocation: "agege",
