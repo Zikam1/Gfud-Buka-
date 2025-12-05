@@ -51,7 +51,7 @@
         </p>
 
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 leading-snug">
-          Cooked with Love, served with every pride of 
+          Cooked with Love, served with the pride of 
           <span class="text-yellow-500">flavor in every dish</span>
         </h2>
 
@@ -70,10 +70,6 @@
     </div>
   </section>
 
-
-  <!-- ====================================== -->
-  <!--         WHY CHOOSE US SECTION          -->
-  <!-- ====================================== -->
   <section 
     class="relative py-20 sm:py-28 bg-cover bg-center bg-no-repeat"
     style="background-image: url('/assest/black-bg.jpg');"

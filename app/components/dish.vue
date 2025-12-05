@@ -124,11 +124,11 @@ import { reactive } from "vue";
 
 const foods = reactive([
   { id: 1, name: "Jollof Rice", desc: "Smoky party-style jollof cooked with rich spices.", unitPrice: 500, unitText: "per portion", quantity: 1, image: "/assest/jolof.png" },
-  { id: 2, name: "Grilled Chicken", desc: "Charcoal-grilled, juicy and perfectly seasoned.", unitPrice: 3500, unitText: "", quantity: 1, image: "/assest/grill.png" },
+  { id: 2, name: "Grilled Turkey", desc: "Charcoal-grilled, juicy and perfectly seasoned.", unitPrice: 3500, unitText: "", quantity: 1, image: "/assest/grill.png" },
   { id: 3, name: "Shawarma", desc: "Creamy, spicy and fully loaded with goodness.", unitPrice: 4000, unitText: "", quantity: 1, image: "/assest/shaar.png" },
   { id: 4, name: "Eba & Egusi", desc: "Delicious traditional meal.", unitPrice: 2500, unitText: "", quantity: 1, image: "/assest/ebe-egusi.png" },
   { id: 5, name: "Fried Rice", desc: "Delicious and colorful fried rice.", unitPrice: 500, unitText: "per portion", quantity: 1, image: "/assest/fried.png" },
-  { id: 6, name: "Meat-pie", desc: "Hot, fresh, and extra cheesy.", unitPrice: 1200, unitText: "", quantity: 1, image: "/assest/meat.png" }
+  { id: 6, name: "Meat-pie", desc: "Hot, fresh, and extra cheesy.", unitPrice: 800, unitText: "", quantity: 1, image: "/assest/meat.png" }
 ]);
 
 const customers = [
